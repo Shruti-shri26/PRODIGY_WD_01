@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+![Screenshot (1710)](https://github.com/Shruti-shri26/PRODIGY_WD_01/assets/123724798/345c1249-0aa1-42e8-b9b3-c2a6afd4df00)<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -62,6 +62,7 @@
   <p>This is the home page. It contains information about our company.</p>
 </div>
 
+
 <script>
   window.onscroll = function() {scrollFunction()};
 
@@ -79,11 +80,18 @@
       content.innerHTML = `
         <h1>Welcome to the Home Page!</h1>
       `;
+
+
+      ![image](https://github.com/Shruti-shri26/PRODIGY_WD_01/assets/123724798/50146370-1c61-4f3a-9716-ec945fd034e2)
+               
       content.className = "content home-page";
     } else if (page === 'about') {
       content.innerHTML = `
         <h1>About Us</h1>
       `;
+
+      ![Screenshot (1710)](https://github.com/Shruti-shri26/PRODIGY_WD_01/assets/123724798/48fd0140-5e73-4c24-810f-f6be19be777a)
+
       content.className = "content about-page";
     } else if (page === 'services') {
       content.innerHTML = `
@@ -103,8 +111,6 @@
 </body>
 </html>
 
-
-![Screenshot (1709)](https://github.com/Shruti-shri26/PRODIGY_WD_01/assets/123724798/472f9464-6946-49bc-9916-19f67b00e56f)
 
 
 
